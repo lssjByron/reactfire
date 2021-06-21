@@ -34,6 +34,12 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+/*
+*Function: MainFeaturedPost
+*Return: HTML
+*About: This page shows the main featured posts (Mcgregor vs Poirier stand off).
+*This function uses the material-ui paper functionality, to add some finesse to the page.
+*/
 export default function MainFeaturedPost(props) {
   const classes = useStyles();
   const { post } = props;

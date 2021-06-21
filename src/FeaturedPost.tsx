@@ -21,6 +21,12 @@ const useStyles = makeStyles({
   },
 });
 
+/*
+*Function: FeaturedPost
+*Return: HTML
+*About: This page shows the featured posts (whats new with conor and dustin posts).
+*This function uses the material-ui card functionality to really make the posts pop for the users.
+*/
 export default function FeaturedPost(props) {
   const classes = useStyles();
   const { post } = props;

@@ -72,6 +72,12 @@ const sidebar = {
   ],
 };
 
+/*
+*Function: Blog
+*Return: HTML
+*About: The main page once logged in. Blog calls on other local components (ex. Header, MainFeaturedPost)
+*to fill the main screen
+*/
 export default function Blog() {
   const classes = useStyles();
   const auth = useAuth();

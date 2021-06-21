@@ -19,6 +19,12 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+/*
+*Function: Sidebar
+*Return: HTML
+*About: Function should be renamed, but is being used for now.
+*Contains the social network icons and names at the bottom of the page.
+*/
 export default function Sidebar(props) {
   const classes = useStyles();
   const {description, social, title } = props;

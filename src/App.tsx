@@ -24,7 +24,12 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-
+/*
+*Function: App
+*Return: HTML
+*About: Handles authentication, if the user is logged in, they will
+*be taken to the Blog site, otherwise they will be taken to the Login page
+*/
 function App() {
     const classes = useStyles();
     const auth = useAuth();

@@ -22,6 +22,12 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+/*
+*Function: Header
+*Return: HTML
+*About: Shows the header in the main page (Blog). The header will also show
+*the sections content (Technology,Design...) for users to browse different categories
+*/
 export default function Header(props) {
   const classes = useStyles();
   const { sections, title } = props;
@@ -39,7 +45,7 @@ export default function Header(props) {
         >
           {title}
         </Typography>
-        
+
       </Toolbar>
       <Toolbar component="nav" variant="dense" className={classes.toolbarSecondary}>
         {sections.map((section) => (
