@@ -53,12 +53,6 @@ export default function MainFeaturedPost(props) {
             <Typography variant="h5" color="inherit" paragraph>
               {post.description}
             </Typography>
-            <Link variant="subtitle1" href="#">
-            <Grid container direction="row" justify="center">
-              {post.linkText}
-          </Grid>
-              
-            </Link>
           </div>
         </Grid>
       </Grid>

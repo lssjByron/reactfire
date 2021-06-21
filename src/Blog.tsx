@@ -45,16 +45,18 @@ const featuredPosts = [
     date: 'Nov 12',
     description:
       "Hear what's new with Conor Mcgregor",
-    image: 'https://source.unsplash.com/random',
+    image: 'https://img.bleacherreport.net/img/images/photos/003/848/289/hi-res-8db997809fbb892e770e491ed00c6ae5_crop_exact.jpg?w=1200&h=1200&q=75',
     imageText: 'Image Text',
+    url: 'https://www.mmamania.com/2021/4/27/22405864/ufc-conor-mcgregor-finally-coughs-up-500k-donation-not-dustin-poiriers-good-fight-mma'
   },
   {
     title: 'Poirer',
     date: 'Nov 11',
     description:
       "Hear what's new with Dustin Poirier",
-    image: 'https://source.unsplash.com/random',
+    image: 'https://dmxg5wxfqgb4u.cloudfront.net/styles/background_image_xl/s3/2021-01/Porier-Dustin_HERO_Updated-012621.png?null&h=d1cb525d&itok=r3P2fs1a',
     imageText: 'Image Text',
+    url: 'https://mmajunkie.usatoday.com/2021/06/dustin-poiriers-boxing-coach-predicts-third-round-knockout-of-conor-mcgregor-at-ufc-264',
   },
 ];
 
@@ -80,7 +82,7 @@ export default function Blog() {
     <React.Fragment>
       <CssBaseline />
       <Container maxWidth="lg">
-        <Header title="Keep Up-To-Date With The Latest Blog" sections={sections} />
+        <Header title="Byron Roby's Blog" sections={sections} />
         <main>
           <MainFeaturedPost post={mainFeaturedPost} />
           <Grid container spacing={4}>
