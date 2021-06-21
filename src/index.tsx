@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import React, {Suspense} from "react";
-=======
-import React from 'react';
->>>>>>> d4d73b65d5084243293c3a2467c549a5fee39a99
 import { FirebaseAppProvider } from 'reactfire';
 
 import firebase from 'firebase/app';
