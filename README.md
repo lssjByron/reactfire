@@ -17,3 +17,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The website is running at: https://anotherproj-d78c0.web.app/
 
+Enter an email and password and click create account to create a new user.
+
